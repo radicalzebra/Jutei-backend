@@ -1,0 +1,50 @@
+.sellerAndBrand {
+   font-family: dosis;
+   display:flex;
+   gap:5px;
+   margin:7px 0;
+}
+
+.sellerAndBrand span {
+   font-weight: 200;
+   letter-spacing: 1px;
+   /* font-size: 13px; */
+}
+
+.sellerAndBrand p span {
+   color:red;
+   font-weight: 700;
+   margin-left:3px;
+}
+
+.sellerAndBrand p {
+   font-weight: 500;
+}
+
+/*********/
+
+.about {
+   font-family: dosis;
+   display:flex;
+   gap:5px;
+}
+
+
+.about > p {
+  letter-spacing: 1px;
+  font-weight: 300;
+   /* background-color: pink;  */
+   padding:5px;
+   padding-top:0;
+}
+
+.about div {
+  font-weight: 500;
+}
+
+.about div span  {
+  color:red;
+  font-weight: 700;
+  margin-left:5px
+  /* background-color: blue;  */
+}

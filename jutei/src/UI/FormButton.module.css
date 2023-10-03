@@ -1,0 +1,24 @@
+.flex {
+   display:flex;
+   gap:1rem; 
+   font-family: dosis;
+}
+
+.button {
+   width:50%;
+   border-radius: 5px;
+   background-color:#E92222;
+   color:white;
+   font-size: 1.3rem;
+   border: 0;
+}
+
+.divContainer {
+   width:2rem;
+   margin-left:2rem
+}
+
+
+.divContainer > img {
+   width: 100%
+}

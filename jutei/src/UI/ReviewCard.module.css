@@ -1,0 +1,81 @@
+
+.reviewCard {
+   display:grid;
+   grid-template-columns: 50px 1fr;
+   background-color: #efeaead5;
+   margin:0.7rem;
+   border-radius:11px;
+   padding:0.5rem;
+   row-gap: 0.1rem;
+   border-width: 2px;
+   border-left-color: rgb(238, 63, 69);
+}
+
+
+/*userImage*/
+
+.userImgFig {
+  width:2.5rem;
+  height:2.5rem;
+  /* border-radius: 50%;   */
+  /* background-color: gainsboro; */
+}
+
+.userImg {
+  width:100%;
+  height:100%;
+  border-radius: 50%;
+}
+
+
+
+
+/*username & review stars*/
+
+.userAndReview {
+  font-family: dosis;
+  font-weight: 500;
+  font-size: 1rem;
+  /* line-height: 1rem; */
+  display:flex;
+  gap:0.7rem;
+  /* background-color: tan; */
+  align-content: start;
+  justify-content: start;
+  padding-left:2px;
+}
+
+.username {
+   /* background-color: thistle; */
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+.reviewStars {
+  /* background-color: blue; */
+  width:90px;
+  /* height:20px; */
+  display:flex;
+  gap:1px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top:7px;
+}
+
+.star {
+  width:15px;
+  align-self: flex-start;
+}
+
+
+
+
+/*the review*/
+
+.review{
+  /* background-color:#C9BBBB; */
+  grid-column: 2/3;
+  font-size:0.8rem;
+  font-family: dosis;
+  font-weight: 400;
+}

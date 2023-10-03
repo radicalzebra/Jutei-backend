@@ -1,0 +1,12 @@
+.header {
+   display: flex;
+   justify-content:space-between;
+   /* max-width:40rem; */
+   min-width:10%;
+   font-family:dosis;
+   font-weight:600;
+   /* background-color: red; */
+   gap:5rem;
+   /* color:beige */
+   /* background-color: blue; */
+}
